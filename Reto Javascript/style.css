@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    /* border: solid 1px yellow; */
+    height: 10%;
+    text-align: center;
+}
+
+.columns-container{
+    /* border: solid 1px red; */
+    height: 80%;
+    margin: 0;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.column{
+    background-color: yellowgreen;
+    border: solid .5px;
+    margin: 0 1px;
+    padding: 1%;
+    height: 90%;
+}
+
+.tasks-container{
+    height: 92%;
+    overflow: scroll;
+}
+
+.frame{
+    /* border: solid 1px red; */
+    margin: 2% 0;
+    height: 23.5%;
+    width: 184px;
+    box-sizing: border-box;
+}
+
+.task{
+    display: block;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    background-color: rgb(250, 181, 54);
+    outline: none;
+}
+
+.buttons-container{
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-button{
+    height: 90%;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.commands-container{
+    /* border: solid 1px green; */
+    height: 10%;
+    display: flex;
+    padding: 0 2%;
+    align-items: center;
+    justify-content: end;
+    background-color: skyblue;
+}
+
+.add-column-button{
+    width: 10%;
+    height: 50%;
+    font-size: 1rem;
+}
